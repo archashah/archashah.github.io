@@ -1,4 +1,138 @@
-html {
-  height: 100%;
-  width: 100%;
+.palatinate-blue {
+	color: #273be2;
 }
+
+.about-me-text {
+	color: #2471A3;
+}
+
+
+#business-section .lead {
+	color: #2471A3;
+}
+
+
+.dark-mode .about-me-text,
+.dark-mode #business-section .lead {
+	color: #90caf9;
+}
+
+.dark-mode {
+	background: #1a2633;
+	color: #e0f7fa;
+}
+.dark-mode .navbar {
+	background: #22304a;
+	color: #e0f7fa;
+}
+.dark-mode .navbar .navbar-brand,
+.dark-mode .navbar .nav-link {
+	color: #e0f7fa;
+}
+.dark-mode .navbar .nav-link.active, .dark-mode .navbar .nav-link:hover {
+	background: #22304a;
+	color: #90caf9;
+}
+.dark-mode .card {
+	background: #22304a;
+	color: #e0f7fa;
+	box-shadow: 0 4px 24px rgba(0,0,0,0.18);
+}
+.dark-mode .card-img-top {
+	background: #22304a;
+}
+.dark-mode .business-logo {
+	background: #22304a;
+}
+
+#business-section .card {
+	min-height: 520px;
+}
+#business-section .card-img-top {
+	height: 320px;
+	object-fit: contain;
+}
+
+
+body {
+	font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+	margin: 0;
+		background: #e0f7fa;
+	color: #2471A3;
+}
+
+
+
+main {
+	max-width: 900px;
+	margin: 2em auto;
+	padding: 0;
+}
+
+h1, h2, h3, h4 {
+	font-family: inherit;
+	font-weight: 700;
+}
+
+ .business-logo {
+	 width: 340px;
+	 display: block;
+	 margin: 1em auto;
+	 border-radius: 16px;
+	 box-shadow: 0 2px 8px rgba(36,113,163,0.08);
+	 background: #a3c9f7;
+ }
+ 
+
+
+section {
+	text-align: center;
+}
+
+ .card {
+	 border-radius: 18px;
+	 box-shadow: 0 4px 24px rgba(36,113,163,0.08);
+	 transition: transform 0.2s, box-shadow 0.2s;
+	 background: #b3d8f7;
+	 color: #2471A3;
+ }
+ 
+ .card:hover {
+	 transform: translateY(-4px) scale(1.03);
+	 box-shadow: 0 8px 32px rgba(36,113,163,0.12);
+ }
+ 
+ .card-img-top {
+	 border-radius: 16px;
+	 background: #a3c9f7;
+ }
+
+
+ .navbar {
+	 border-radius: 0 0 18px 18px;
+	 background: #a3c9f7;
+	 color: #2471A3;
+ }
+ .navbar .navbar-brand {
+	 color: #2471A3;
+ }
+ .navbar .nav-link {
+	 color: #2471A3;
+ }
+ .navbar .nav-link.active, .navbar .nav-link:hover {
+	 background: #b3d8f7;
+	 color: #2471A3;
+ }
+
+
+ .bg-gradient {
+	 background: linear-gradient(90deg, #a3c9f7 0%, #d0e6fa 100%);
+	 color: #2471A3;
+ }
+
+
+ .shadow {
+	 box-shadow: 0 4px 24px rgba(36,113,163,0.08);
+ }
+ 
+
